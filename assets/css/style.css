@@ -112,6 +112,7 @@ main ul{
 main ul li:nth-of-type(1)::after{
     content: "- SOLD OUT";
     color: red;
+    letter-spacing: 0.5rem;
 }
 
 main ul li:nth-of-type(2)::after{
@@ -131,12 +132,12 @@ main ul li:nth-of-type(4)::after{
 
 main ul li:nth-of-type(5)::after{
     content: "- AVALABLE";
-    color: green;
+    color: rgb(36, 192, 36);
 }
 
 main ul li:nth-of-type(6)::after{
     content: "- AVALABLE";
-    color: green;
+    color: rgb(36, 192, 36);
 }
 
 /* ****************** footer p contact **************** */
