@@ -46,10 +46,10 @@ html{
 /* *+++++++++++++ header +++++++++++++ */
 
 header p{ 
-    margin: 1rem;
     color: #999;
     letter-spacing: 0.2rem;
-    border: #ccc;
+    border: 0.02rem solid #ccc;
+    padding: 1rem;
 }
 
 header h1{
@@ -138,4 +138,21 @@ main ul li:nth-of-type(6)::after{
     color: green;
 }
 
+/* ****************** footer p contact **************** */
 
+footer a{
+    display: block;
+    color: #ccc;
+    text-align: center;
+    margin: 6rem 0 0 0;
+    text-decoration: none;
+    border: 0.02rem solid #ccc;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+}
+
+footer a:hover{
+    font-size: 2rem;
+    padding: 0rem;
+    letter-spacing: 0.8rem;
+}
