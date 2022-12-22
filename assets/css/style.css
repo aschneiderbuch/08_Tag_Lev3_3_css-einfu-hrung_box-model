@@ -78,3 +78,18 @@ main p{
 
 /* ******************** main bilder ************** */
 
+main section{
+    margin: 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 6rem;
+
+    
+}
+
+main section img{
+width: 18rem;
+border-radius: 0.2rem;
+}
+
