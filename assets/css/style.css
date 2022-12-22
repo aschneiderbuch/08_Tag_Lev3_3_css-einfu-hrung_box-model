@@ -31,12 +31,30 @@ html{
     scroll-behavior: smooth;
 }
 
-/* * in header p-logo, header h1,  main h2, footer a-contact */
+/* * in header p-logo, header h1,  main h2, main h3-tourdates, footer a-contact */
 .schriftCinzel{
     font-family: Cinzel, sans-serif;
 }    
 
-/* * in main p, main h3-tourdates, main ul-text-touren */
+/* * in main p, main ul-text-touren */
 .schriftPoppis{
     font-family: Poppis, sans-serif;
+}
+
+
+/* *+++++++++++++ header +++++++++++++ */
+
+header p{ 
+    margin: 1rem;
+    color: #999;
+    letter-spacing: 0.2rem;
+}
+
+header h1{
+text-align: center;
+background-image: url("../img/background.avif");
+height: 100vh;
+color: #fff;
+padding: 25vh 20vw;
+font-size:7rem;
 }
