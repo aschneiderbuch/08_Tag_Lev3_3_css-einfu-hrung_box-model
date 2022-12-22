@@ -42,12 +42,14 @@ html{
 }
 
 
+
 /* *+++++++++++++ header +++++++++++++ */
 
 header p{ 
     margin: 1rem;
     color: #999;
     letter-spacing: 0.2rem;
+    border: #ccc;
 }
 
 header h1{
@@ -58,3 +60,21 @@ color: #fff;
 padding: 25vh 20vw;
 font-size:7rem;
 }
+
+
+
+/* ***************** main ****************** */
+
+main h2{
+    text-align: center;
+    margin: 3rem;
+}
+
+main p{
+    margin: 0 10vw 3rem;
+    text-align: center;
+}
+
+
+/* ******************** main bilder ************** */
+
