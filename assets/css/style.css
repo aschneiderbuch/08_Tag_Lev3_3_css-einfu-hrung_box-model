@@ -16,7 +16,7 @@ font-family: Poppis, sans-serif;
 
 @font-face {
     font-family: Poppis;
-    src: url("../fonts/Poppins/Poppins-Black.ttf");
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 
 
@@ -31,7 +31,12 @@ html{
     scroll-behavior: smooth;
 }
 
-/* * in header p-logo, main h2, footer a-contact */
+/* * in header p-logo, header h1,  main h2, footer a-contact */
 .schriftCinzel{
     font-family: Cinzel, sans-serif;
 }    
+
+/* * in main p, main h3-tourdates, main ul-text-touren */
+.schriftPoppis{
+    font-family: Poppis, sans-serif;
+}
