@@ -55,6 +55,7 @@ header p{
 header h1{
 text-align: center;
 background-image: url("../img/background.avif");
+background-repeat: no-repeat;
 height: 100vh;
 color: #fff;
 padding: 25vh 20vw;
@@ -156,3 +157,4 @@ footer a:hover{
     padding: 0rem;
     letter-spacing: 0.8rem;
 }
+
